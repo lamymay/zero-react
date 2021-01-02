@@ -1,0 +1,40 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+### IntelliJ IDEA ###
+#.idea/
+#*.iws
+#*.ipr
+#*.iml
+
+.idea
+
+/public/.idea/*.xlsx
+#根目录
+#/target
+
+#当前目录及其所有子目录排除文件夹，注意：同时该名称的文件也被排除
+target/
+
+
